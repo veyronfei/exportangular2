@@ -7,6 +7,7 @@ import { environment } from "./environments/environment";
 if (environment.production) {
   enableProdMode();
   console.log("haha1");
+  console.log("haha2");
 }
 
 platformBrowserDynamic()
